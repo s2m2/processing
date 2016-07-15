@@ -1,15 +1,11 @@
-public class Player{
+public class Enemy{
   
-  private int maxHP = 30;
-  private int hp = 30;
+  private int maxHP = 10;
+  private int hp = 10;
   private int atk = 10;
   private int def = 5;
   
-  public Player(){
-    this.hp = this.maxHP;
-  }
-  
-  public void recovery(){
+  public Enemy(){
     this.hp = this.maxHP;
   }
   
@@ -26,7 +22,7 @@ public class Player{
   public int getAtk(){
     return this.atk;
   }
- 
+  
   public boolean isKnockDown(){
     if(this.hp < 0){
       return true;

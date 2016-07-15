@@ -44,9 +44,9 @@ public class DungeonPainter{
       painter.paintRoad(4, true);
     }
 
-    if(data[1][2] == 1 || data[1][2] == 0){
+    if(data[2][1] == 1 || data[2][1] == 0){
       painter.paintRoad(7, false);
-    }else if(data[1][2] == 2 || data[1][2] == 3){
+    }else if(data[2][1] == 2 || data[2][1] == 3){
       painter.paintRoad(7, true);
     }
       

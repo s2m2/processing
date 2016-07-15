@@ -42,8 +42,8 @@ public class Dungeon{
     setWall();
     setStartPoint();
     setRoad();
-    setEndPoint();
 //    setTestRoad();
+    setEndPoint();
   }
   
   private void setWall(){
